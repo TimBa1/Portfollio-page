@@ -51,6 +51,7 @@ const Header = () => {
         right:-2.3rem;
         bottom:5rem;
         transform: rotate(90deg);
+        
         font-weight:300;
         font-size:0.9rem;
     }
