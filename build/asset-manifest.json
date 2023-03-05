@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a91ce28b.css",
+    "main.js": "/static/js/main.e613139c.js",
+    "static/js/787.b2e1b36e.chunk.js": "/static/js/787.b2e1b36e.chunk.js",
+    "static/media/timba.jpeg": "/static/media/timba.f2bbb579453095ad6083.jpeg",
+    "index.html": "/index.html",
+    "main.a91ce28b.css.map": "/static/css/main.a91ce28b.css.map",
+    "main.e613139c.js.map": "/static/js/main.e613139c.js.map",
+    "787.b2e1b36e.chunk.js.map": "/static/js/787.b2e1b36e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a91ce28b.css",
+    "static/js/main.e613139c.js"
+  ]
+}
