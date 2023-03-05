@@ -6,5 +6,32 @@ export const socialMedia = {
     twitter: "https://twitter.com/iam_timba",
     gmail: "timilehinbakare.tb@gmail.com", 
     number: "+234-8126414677",
-    cv:"https://docs.google.com/document/d/e/2PACX-1vTidXIj-BQERMuHgcCpQm2YQlcSwOUQMsoKRvEyaqpKRJBQL4XFKhcvMXHmHnNLNQ/pub"
+    cv:"https://drive.google.com/file/d/1B4awQPhx85gYEZJ0PgaUigj9g_J-YYZW/view?usp=share_link"
   }
+
+  export const WorkExp=[
+    {
+      place:'Paymoni',
+      tenure:'Oct 2022 -Present',
+      role: "Junior Frontend Developer",
+      detail:'Lead Frontend developer in each step of the product development from idealization and development of building a mobile global bank for financial technology solutions that enables user pay bills, send money, manage expenses and swap currencies across borders safely.'
+    },
+    {
+      place:'Scholapay',
+      tenure:'Sept 2022 -Present',
+      role: "Junior Frontend Developer",
+      detail:'Built a simplified payment solution for Schools, parent and students for easy payment of school fees and other educational fees with a team of developers.'
+    },
+    {
+      place:'ALT School Africa',
+      tenure:'April 2022 -Present',
+      role: "Frontend engineering Intern",
+      detail:'Currently enrolled in ALT school Africa as a student to better my knowledge and problem-solving skills as a frontend developer.'
+    },
+    {
+      place:'Requstory',
+      tenure:'July 2022 -Feb 2022',
+      role: "Frontend Developer",
+      detail:'Built a simplified payment solution for Schools, parent and students for easy payment of school fees and other educational fees with a team of developers.'
+    }
+  ]

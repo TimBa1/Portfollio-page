@@ -1,9 +1,11 @@
 import React from 'react'
+import { Container } from './About'
 
 function Contact() {
   return (
-    <div>Contact
-    </div>
+    <Container id='contact'>
+contact
+    </Container>
   )
 }
 

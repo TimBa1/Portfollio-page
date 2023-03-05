@@ -1,8 +1,11 @@
 import React from 'react'
+import { Container } from './About'
 
 function Portfolio() {
   return (
-    <div>Portfolio</div>
+    <Container id ='portfolio'>
+      portfolio
+    </Container>
   )
 }
 
