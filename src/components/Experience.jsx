@@ -2,86 +2,69 @@ import React from "react";
 import { Container } from "./About";
 import styled from "styled-components";
 import { WorkExp } from "../Socials";
+import { BoxShadow } from "react-shadow-component";
 
 const Expertise = styled.div`
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  width:75%;
-  margin:0 auto;
+  width: 75%;
+  margin: 0 auto;
 
   .experience {
     display: flex;
-    justify-content: center;
     width: 100%;
-    flex-direction: column;
-    gap: 1.4rem;
-    position: relative;
+    overflow-x: auto;
+    padding: 15px 10px;
+    gap: 2rem;
+    h5 {
+      color: var(--color-light);
+    }
   }
   .exp {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    justify-content: space-between;
-    line-height: 40px;
-    align-items: flex-start;
-    div {
-      flex: 1;
-    }
+    min-width: 33%;
+    height:300px;
+    padding: 2rem 1rem;
+    background-color: var(--color-bg-variant);
+    border-radius: 20px;
+    box-shadow: 0 5px 10px -2px var(--color-primary);
   }
   .post {
   }
-  .post h5 {
-    color: var(--color-light);
-  }
-  .role {
-    margin-left: 2rem;
-  }
-  .role h5 {
-    color: var(--color-light);
-  }
-  .progressbar {
-    position: absolute;
-    height: 100%;
+
+  .top {
     display: flex;
-    flex-direction: column;
-    gap: 1.4rem;
-    left: 45%;
+    align-items: center;
+    justify-content: space-between;
   }
   .line {
-    display:flex;
-    flex-direction:column;
-    position: absolute;
-    height: 92%;
-    width: 2px;
+    display: flex;
+    height: 2px;
+    width:99%;
+    margin: 10px auto;
     background-image: linear-gradient(
       var(--color-primary) 33%,
       rgba(255, 255, 255, 0) 0%
     );
-    background-position: right;
-    background-size: 2px 30px;
-    background-repeat: repeat-y;
-    left: 48%;
-    z-index: 1;
     border-radius: 5px;
 
     div {
-      flex: 1 ;
-      padding-top: .8rem;
+      flex: 1;
+      padding-top: 0.8rem;
       z-index: 2;
     }
   }
-  .circle {
-    background: var(--color-primary);
-    border-radius: 50%;
-    width: 1.2rem;
-    height: 1.2rem;
-  }
-  @media screen and (max-width:1024px){
-    width:95%;
-  }
-  @media screen and (max-width:600px){
 
+  @media screen and (max-width: 1024px) {
+    width: 95%;
+  }
+  @media screen and (max-width: 600px) {
+    .exp {
+      min-width: 100%;
+      padding: 2rem 1rem;
+      background-color: var(--color-bg-variant);
+      border-radius: 20px;
+    }
   }
 `;
 function Experience() {
@@ -94,34 +77,20 @@ function Experience() {
           <div className="experience">
             {WorkExp.map((props) => {
               return (
-                <div key={props.id} className="exp">
-                  <div className="post">
-                    <h2>{props.place}</h2>
-                    <h5>{props.tenure}</h5>
+                
+                  <div key={props.id} className="exp">
+                    <div className="top">
+                      <h3>{props.place}</h3>
+                      <h5>{props.tenure}</h5>
+                    </div>
+                    <div>
+                      <h5>{props.role}</h5>
+                      <div className="line"></div>
+                      <h5>{props.detail}</h5>
+                    </div>
                   </div>
-                  <div className="role">
-                    <h2>{props.role}</h2>
-                    <h5>{props.detail}</h5>
-                  </div>
-                </div>
               );
             })}{" "}
-            <div className="progressbar">
-              <div className="line">
-                <div >
-                  <div className="circle"></div>
-                </div>
-                <div style={{paddingTop:"9.7rem"}}>
-                  <div className="circle"></div>
-                </div>
-                <div style={{marginTop:"4rem"}}>
-                  <div className="circle"></div>
-                </div>
-                <div style={{marginTop:"4rem"}}>
-                  <div className="circle"></div>
-                </div>
-              </div>
-            </div>
           </div>
         </section>
       </Expertise>

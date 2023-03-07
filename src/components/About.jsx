@@ -5,7 +5,7 @@ import { VscFolderLibrary } from "react-icons/vsc";
 import me from "../Assets/me.png";
 
 export const Container = styled.div`
-  height: 100vh;
+  
 `;
 const About1 = styled.div`
   .container {
