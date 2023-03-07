@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "./About";
 import styled from "styled-components";
 import { WorkExp } from "../Socials";
-import { BoxShadow } from "react-shadow-component";
+
 
 const Expertise = styled.div`
   display: flex;
