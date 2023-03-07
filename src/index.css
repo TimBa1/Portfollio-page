@@ -72,7 +72,7 @@ a{
   transition: var(--transition);
 }
 a:hover{
-  background-color:var(--color-white)
+  color:var(--color-white)
 }
 .btn{
   width: max-content;
