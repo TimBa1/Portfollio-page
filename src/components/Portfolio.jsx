@@ -61,11 +61,12 @@ function Portfolio() {
                   <div className="item-img">
                     <img src={me} alt="no img" />
                   </div>
-                  <h3>THis is a portfoilio item title</h3>
+                  <h3>THis is a portfoilio item title and details</h3>
                   <div className="item-cta">
                    <a href={socialMedia.Github} className="btn">
                     Github
                   </a>
+
                   <a href="www.livfe.com" target="_blank" className="btn btn-primary">
                     Live Demo
                   </a>  
