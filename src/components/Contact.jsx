@@ -98,7 +98,7 @@ function Contact() {
                 <a href={"tel:" + socialMedia.number} target="_blank" rel="noreferrer" >Contact Me</a>
               </article>
             </div>
-            <form  action="https://formsubmit.co/timilehinbakare.tb@gmail.com" method="POST">
+            <form  action="https://formsubmit.co/7c1e5a26dbee156903748d7561343219" method="POST">
               <input type="text" name="name" placeholder="Your Full Name" required/>
               <input type="email" name="email" placeholder="Enter your Email" required />
               <textarea name="message" placeholder="Your Message" required rows="7" ></textarea>
