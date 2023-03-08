@@ -66,7 +66,7 @@ function Portfolio() {
                    <a href={socialMedia.Github} className="btn">
                     Github
                   </a>
-                  <a href="" target="_blank" className="btn btn-primary">
+                  <a href="www.livfe.com" target="_blank" className="btn btn-primary">
                     Live Demo
                   </a>  
                   </div>
