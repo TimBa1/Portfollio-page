@@ -75,8 +75,8 @@ function Contact() {
     <Container id="contact">
       <Cont>
         <section>
-          <h5 data-aos="flip-left">Get in Touch</h5>
-          <h2 data-aos="flip-right">Contact me</h2>
+          <h5 data-aos="fade-up">Get in Touch</h5>
+          <h2 data-aos="fade-up">Contact me</h2>
           <div className="container">
             <div className="options">
               <article data-aos="flip-up" className="option">
@@ -99,10 +99,10 @@ function Contact() {
               </article>
             </div>
             <form  action="https://formsubmit.co/7c1e5a26dbee156903748d7561343219" method="POST">
-              <input data-aos="zoom-out-left" type="text" name="name" placeholder="Your Full Name" required/>
-              <input data-aos="zoom-out-right" type="email" name="email" placeholder="Enter your Email" required />
-              <textarea data-aos="zoom-out-down" name="message" placeholder="Your Message" required rows="7" ></textarea>
-              <button data-aos="zoom-out" type="submit" className="btn btn-primary">Send Message</button>
+              <input data-aos="zoom-in-down" type="text" name="name" placeholder="Your Full Name" required/>
+              <input data-aos="zoom-in-down" type="email" name="email" placeholder="Enter your Email" required />
+              <textarea data-aos="zoom-in-up" name="message" placeholder="Your Message" required rows="7" ></textarea>
+              <button data-aos="zoom-in" type="submit" className="btn btn-primary">Send Message</button>
             </form>
           </div>
         </section>

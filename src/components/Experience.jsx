@@ -82,11 +82,11 @@ function Experience() {
       <Expertise>
         {" "}
         <section>
-          <h2>Work Experience</h2>
-          <div className="experience">
+          <h2 data-aos="zoom-in">Work Experience</h2>
+          <div data-aos="zoom-in" className="experience">
             {WorkExp.map((props) => {
               return (
-                <div data-aos="flip-left" key={props.id} className="exp">
+                <div  key={props.id} className="exp">
                   <div className="top">
                     <h3>{props.place}</h3>
                     <h5>{props.tenure}</h5>
@@ -101,10 +101,10 @@ function Experience() {
             })}{" "}
           </div>
           <div style={{ display: "flex" ,gap:"1rem", justifyContent:"center",margin:".7rem 0 0 0"}}>
-            <div data-aos="fade-right" className="dot"></div>
-            <div data-aos="fade-right" className="dot"></div>
-            <div data-aos="fade-left" className="dot"></div>
-            <div data-aos="fade-left" className="dot"></div>
+            <div data-aos="flip-right" className="dot"></div>
+            <div data-aos="flip-right" className="dot"></div>
+            <div data-aos="flip-left" className="dot"></div>
+            <div data-aos="flip-left" className="dot"></div>
           </div>
         </section>
       </Expertise>
