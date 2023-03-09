@@ -102,6 +102,10 @@ const About1 = styled.div`
       margin:1.5rem 0;
      
     }
+    img{
+    height:230px;
+    width:230px
+  }
   }
 `;
 
