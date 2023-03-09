@@ -3,14 +3,20 @@ import { Container } from "./About";
 import styled from "styled-components";
 import { WorkExp } from "../Socials";
 
-
 const Expertise = styled.div`
   display: flex;
   flex-direction: column;
   gap: 2rem;
   width: 75%;
   margin: 0 auto;
- 
+
+
+  .dot{
+  width:4px;
+  height:4px;
+  background:var(--color-primary);
+  border-radius:4px;
+}
 
   .experience {
     display: flex;
@@ -55,6 +61,7 @@ const Expertise = styled.div`
       padding-top: 0.8rem;
       z-index: 2;
     }
+  
   }
 
   @media screen and (max-width: 1024px) {
@@ -79,20 +86,25 @@ function Experience() {
           <div className="experience">
             {WorkExp.map((props) => {
               return (
-                
-                  <div key={props.id} className="exp">
-                    <div className="top">
-                      <h3>{props.place}</h3>
-                      <h5>{props.tenure}</h5>
-                    </div>
-                    <div>
-                      <h5>{props.role}</h5>
-                      <div className="line"></div>
-                      <h5>{props.detail}</h5>
-                    </div>
+                <div key={props.id} className="exp">
+                  <div className="top">
+                    <h3>{props.place}</h3>
+                    <h5>{props.tenure}</h5>
                   </div>
+                  <div>
+                    <h5>{props.role}</h5>
+                    <div className="line"></div>
+                    <h5>{props.detail}</h5>
+                  </div>
+                </div>
               );
             })}{" "}
+          </div>
+          <div style={{ display: "flex" ,gap:"1rem", justifyContent:"center",margin:".7rem 0 0 0"}}>
+            <div className="dot"></div>
+            <div className="dot"></div>
+            <div className="dot"></div>
+            <div className="dot"></div>
           </div>
         </section>
       </Expertise>
