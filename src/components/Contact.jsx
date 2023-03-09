@@ -75,23 +75,23 @@ function Contact() {
     <Container id="contact">
       <Cont>
         <section>
-          <h5>Get in Touch</h5>
-          <h2>Contact me</h2>
+          <h5 data-aos="flip-left">Get in Touch</h5>
+          <h2 data-aos="flip-right">Contact me</h2>
           <div className="container">
             <div className="options">
-              <article className="option">
+              <article data-aos="flip-up" className="option">
                 <MdOutlineEmail  className="icon"/>
                 <h4>Email</h4>
                 <h5>{socialMedia.gmail}</h5>
                 <a href='mailto:timilehinbakare.tb.com' target="_blank" rel="noreferrer">Send a Mail</a>
               </article>
-              <article className="option">
+              <article data-aos="flip-down" className="option">
                 <BsLinkedin className="icon"/>
                 <h4>linkedIn</h4>
                 <h5>Timilehin Bakare</h5>
                 <a href={socialMedia.linkedIn} target="_blank" rel="noreferrer">Lets connect</a>
               </article>
-              <article className="option">
+              <article data-aos="flip-up" className="option">
                 <BsWhatsapp className="icon"/>
                 <h4>Whatsapp</h4>
                 <h5>{socialMedia.number}</h5>
@@ -99,10 +99,10 @@ function Contact() {
               </article>
             </div>
             <form  action="https://formsubmit.co/7c1e5a26dbee156903748d7561343219" method="POST">
-              <input type="text" name="name" placeholder="Your Full Name" required/>
-              <input type="email" name="email" placeholder="Enter your Email" required />
-              <textarea name="message" placeholder="Your Message" required rows="7" ></textarea>
-              <button type="submit" className="btn btn-primary">Send Message</button>
+              <input data-aos="zoom-out-left" type="text" name="name" placeholder="Your Full Name" required/>
+              <input data-aos="zoom-out-right" type="email" name="email" placeholder="Enter your Email" required />
+              <textarea data-aos="zoom-out-down" name="message" placeholder="Your Message" required rows="7" ></textarea>
+              <button data-aos="zoom-out" type="submit" className="btn btn-primary">Send Message</button>
             </form>
           </div>
         </section>

@@ -97,7 +97,7 @@ const Header = () => {
       <div className="container headerCont">
         <h5 data-aos="fade-down">Hello I'm</h5>
         <h1 data-aos="fade-down">Timilehin Bakare</h1>
-        <h5 data-aos="fade-up" className="text-light">Frontend Developer</h5>
+        <h5 data-aos="fade-down" className="text-light">Frontend Developer</h5>
         <div className="cta">
           <a data-aos="fade-right" href={socialMedia.cv} target='_blank' rel='noreferrer'alt="no img" className="btn">
             Download Resume
@@ -109,6 +109,7 @@ const Header = () => {
         <div  className="me">
           <img data-aos="fade-up" src={timba} alt="no img" />
         </div>
+        
         <a href="#footer" data-aos="fade-left" className="scroll_down">
           Scroll Down
         </a>

@@ -75,8 +75,8 @@ function Portfolio() {
     <Container id="portfolio">
       <Port>
         <section>
-          <h5>My Recent Works</h5>
-          <h2>Portfolio</h2>
+          <h5 data-aos="fade-down">My Recent Works</h5>
+          <h2 data-aos="fade-down">Portfolio</h2>
           <div className="container cont">
             {items.map((item) => {
               return (

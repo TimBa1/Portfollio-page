@@ -114,40 +114,36 @@ function About() {
     <Container id="about">
       <About1>
         <section>
-        <h5>Get To Know</h5>
-        <h2>About Me</h2>
+        <h5  data-aos="fade-up">Get To Know</h5>
+        <h2  data-aos="fade-up">About Me</h2>
         <div className="container">
           <div className="me">
             <div className="img">
-              <img src={tombo} alt="no img" />
+              <img  data-aos="zoom-in" src={tombo} alt="no img" />
             </div>
           </div>
 
           <div className="content">
-            <div className="cards">
+            <div data-aos="zoom-in" className="cards">
               <article className="card">
                 <FaAward className="icon" />
                 <h5>Experience</h5>
                 <small>1+ Years Working</small>
               </article>
-              {/* <article className="card">
-              <FaAward className='icon'/>
-              <h5>Experience</h5>
-              <small>1+ Years Working</small>
-            </article> */}
+              
               <article className="card">
                 <VscFolderLibrary className="icon" />
                 <h5>Projects</h5>
                 <small>6+ Completed projects</small>
               </article>
             </div>
-            <p>
+            <p  data-aos="flip-up">
             Innovative and avid frontend engineer that loves bringing ideas to life, quick to grasp and implement new technology to design efficient and scalable products.
             Dedicated in optimizing codes, proxies and all other services to improve frontend supports.
             junior frontend engineer seeking to acquire more knowledge on tech stacks and work on real life projects.
             Skilled at team collaboration while working in the office or remotely. Asides from coding i love playing video games,having fun in general and visiting new places and meeting new people
             </p>
-            <a href="#contact" className="btn btn-primary">
+            <a data-aos="fade-up" href="#contact" className="btn btn-primary">
               Let's Talk
             </a>
           </div>
