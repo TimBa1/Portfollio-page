@@ -77,7 +77,7 @@ const About1 = styled.div`
       gap:0
     }
     .me{
-      width:50%;
+      width:58%;
       margin:2rem auto 4rem ;
     }
     .content{
@@ -87,7 +87,7 @@ const About1 = styled.div`
   @media screen and (max-width:600px){
     margin-bottom:5rem;
     .me{
-      width:65%;
+      width:80%;
       margin:0 auto 3rem;
     }
     .cards{
@@ -103,8 +103,8 @@ const About1 = styled.div`
      
     }
     img{
-    height:230px;
-    width:230px
+    height:280px;
+    width:280px
   }
   }
 `;
