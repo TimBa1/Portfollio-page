@@ -80,7 +80,7 @@ function Portfolio() {
           <div className="container cont">
             {items.map((item) => {
               return (
-                <article className="port-item" key={item.id}>
+                <article  data-aos="fade-up" data-aos-duration="7000" className="port-item" key={item.id}>
                   <div className="item-img">
                     <img src={item.img} alt="no img" />
                   </div>

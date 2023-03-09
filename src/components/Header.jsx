@@ -51,7 +51,7 @@ const Header = () => {
       position: absolute;
       right: -2.3rem;
       bottom: 5rem;
-      transform: rotate(90deg);
+      transform: rotate(90deg) !important;
 
       font-weight: 300;
       font-size: 0.9rem;
@@ -95,24 +95,24 @@ const Header = () => {
   return (
     <Header id='home'>
       <div className="container headerCont">
-        <h5>Hello I'm</h5>
-        <h1>Timilehin Bakare</h1>
-        <h5 className="text-light">Frontend Developer</h5>
+        <h5 data-aos="fade-down">Hello I'm</h5>
+        <h1 data-aos="fade-down">Timilehin Bakare</h1>
+        <h5 data-aos="fade-up" className="text-light">Frontend Developer</h5>
         <div className="cta">
-          <a href={socialMedia.cv} target='_blank' rel='noreferrer'alt="no img" className="btn">
+          <a data-aos="fade-right" href={socialMedia.cv} target='_blank' rel='noreferrer'alt="no img" className="btn">
             Download Resume
           </a>
-          <a href="#contact" className="btn btn-primary">
+          <a data-aos="fade-left" href="#contact" className="btn btn-primary">
             Let's talk
           </a>
         </div>
-        <div className="me">
-          <img src={timba} alt="no img" />
+        <div  className="me">
+          <img data-aos="fade-up" src={timba} alt="no img" />
         </div>
-        <a href="#footer" className="scroll_down">
+        <a href="#footer" data-aos="fade-left" className="scroll_down">
           Scroll Down
         </a>
-        <div className="socials">
+        <div data-aos="fade-up-right"  className="socials">
           <a
             href={socialMedia.linkedIn}
             target="_blank"

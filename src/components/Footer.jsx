@@ -64,7 +64,7 @@ a:hover{
 function Footer() {
   return (
     <Container id='footer'>
-      <Foot>
+      <Foot  data-aos="fade-up" data-aos-duration="7000">
         <a href="home" className='logo'>TimBa</a>
         <ul className='links'>
           <li className=''><a href='home'>Home</a></li>

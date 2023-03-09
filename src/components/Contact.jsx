@@ -95,7 +95,7 @@ function Contact() {
                 <BsWhatsapp className="icon"/>
                 <h4>Whatsapp</h4>
                 <h5>{socialMedia.number}</h5>
-                <a href={"tel:" + socialMedia.number} target="_blank" rel="noreferrer" >Contact Me</a>
+                <a href={socialMedia.whatsapp} target="_blank" rel="noreferrer" >Contact Me</a>
               </article>
             </div>
             <form  action="https://formsubmit.co/7c1e5a26dbee156903748d7561343219" method="POST">

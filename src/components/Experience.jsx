@@ -12,8 +12,8 @@ const Expertise = styled.div`
 
 
   .dot{
-  width:4px;
-  height:4px;
+  width:7px;
+  height:7px;
   background:var(--color-primary);
   border-radius:4px;
 }
