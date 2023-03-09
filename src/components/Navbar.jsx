@@ -32,8 +32,8 @@ const Nav = styled.div`
     background: rgba(0,0,0,0.3);
   }
   a.active{
-    background: var(--color-bg);
-    color: var(--color-white);
+    background: var(--color-primary);
+    color: var(--color-bg);
   }
 `;
 

@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { FaAward } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
-import me from "../Assets/me.png";
+import tombo from "../Assets/tombo.jpg"
 
 export const Container = styled.div`
   
@@ -20,6 +20,10 @@ const About1 = styled.div`
     background:linear-gradient(45deg,transparent,var(--color-primary),transparent);
     display:grid;
     place-items:center;
+  }
+  img{
+    height:380px;
+    width:380px
   }
   .img {
     border-radius:2rem;
@@ -111,7 +115,7 @@ function About() {
         <div className="container">
           <div className="me">
             <div className="img">
-              <img src={me} alt="no img" />
+              <img src={tombo} alt="no img" />
             </div>
           </div>
 
@@ -136,8 +140,8 @@ function About() {
             <p>
             Innovative and avid frontend engineer that loves bringing ideas to life, quick to grasp and implement new technology to design efficient and scalable products.
             Dedicated in optimizing codes, proxies and all other services to improve frontend supports.
-            Currently seeking an entry level frontend engineering role to acquire more knowledge on tech stacks and work on real life projects.
-            Skilled at team collaboration while working in the office or remotely. 
+            junior frontend engineer seeking to acquire more knowledge on tech stacks and work on real life projects.
+            Skilled at team collaboration while working in the office or remotely. Asides from coding i love playing video games,having fun in general and visiting new places and meeting new people
             </p>
             <a href="#contact" className="btn btn-primary">
               Let's Talk

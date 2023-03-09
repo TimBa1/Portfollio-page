@@ -5,7 +5,7 @@ import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import { SiGmail } from "react-icons/si";
 import { FiTwitter } from "react-icons/fi";
-import timba from "../Assets/timba.jpeg";
+import Timilehin from "../Assets/Timilehin.png";
 const Header = () => {
   const Header = styled.div`
     height: 100vh;
@@ -39,8 +39,9 @@ const Header = () => {
       padding: 2rem 1.5rem 1.5rem 1.5rem;
     }
     img {
-      height: 100%;
-      width: 100%;
+      height: 400%;
+      width: 200%;
+      padding-top:35rem;
       background-size: cover;
       border-radius: 11rem 11rem 0 0;
       background-repeat: no-repeat;
@@ -105,7 +106,7 @@ const Header = () => {
           </a>
         </div>
         <div className="me">
-          <img src={timba} alt="no img" />
+          <img src={Timilehin} alt="no img" />
         </div>
         <a href="#footer" className="scroll_down">
           Scroll Down

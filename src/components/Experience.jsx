@@ -10,11 +10,13 @@ const Expertise = styled.div`
   gap: 2rem;
   width: 75%;
   margin: 0 auto;
+ 
 
   .experience {
     display: flex;
     width: 100%;
     overflow-x: auto;
+    scrollbar-color: var(--bg-primary);
     padding: 15px 10px;
     gap: 2rem;
     h5 {
