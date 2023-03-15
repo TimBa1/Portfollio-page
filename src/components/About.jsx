@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { FaAward } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
-import tombo from "../Assets/tombo.jpg"
+import tombo from "../Assets/tombo.svg"
 
 export const Container = styled.div`
   
