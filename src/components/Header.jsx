@@ -41,7 +41,6 @@ const Header = () => {
     img {
       height: 100%;
       width:100%
-      
       background-size: cover;
       border-radius: 11rem 11rem 0 0;
       background-repeat: no-repeat;
