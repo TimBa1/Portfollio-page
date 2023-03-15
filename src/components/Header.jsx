@@ -8,11 +8,15 @@ import { FiTwitter } from "react-icons/fi";
 import timba from "../Assets/timba.jpeg";
 
 
+
+
+
 const Header = () => {
   const Header = styled.div`
     height: 100vh;
     padding-top: 2rem;
     overflow: hidden;
+    
     .headerCont {
       text-align: center;
       height: 100%;
