@@ -5,7 +5,9 @@ import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import { SiGmail } from "react-icons/si";
 import { FiTwitter } from "react-icons/fi";
-import timba from "../Assets/timba.svg";
+import timba from "../Assets/timba.jpeg";
+
+
 const Header = () => {
   const Header = styled.div`
     height: 100vh;
