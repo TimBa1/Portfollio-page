@@ -7,7 +7,7 @@ export const socialMedia = {
     gmail: "timilehinbakare.tb@gmail.com", 
     number: "+234-8126414677",
     whatsapp:"https://wa.me/+2348126414677/",
-    cv:"https://drive.google.com/file/d/1B4awQPhx85gYEZJ0PgaUigj9g_J-YYZW/view?usp=share_link"
+    cv:"https://t.co/KdoD0X20NI"
   }
 
   export const WorkExp=[

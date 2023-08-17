@@ -5,7 +5,7 @@ import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import { SiGmail } from "react-icons/si";
 import { FiTwitter } from "react-icons/fi";
-import timba from "../Assets/timba.jpeg";
+import timba1 from "../Assets/timba1.jpg";
 
 
 
@@ -46,7 +46,7 @@ const Header = () => {
     }
     img {
       height: 100%;
-      width:100%
+      width:100%;
       background-size: cover;
       border-radius: 11rem 11rem 0 0;
       background-repeat: no-repeat;
@@ -112,7 +112,7 @@ const Header = () => {
           </a>
         </div>
         <div  className="me">
-          <img data-aos="fade-up" src={timba} alt="no img" />
+          <img data-aos="fade-up" src={timba1} alt="no img" />
         </div>
         
         <a href="#footer" data-aos="flip-left" className="scroll_down">
