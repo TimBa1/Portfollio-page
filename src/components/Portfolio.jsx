@@ -9,6 +9,10 @@ import hollarams from "../Assets/hollarams.png";
 import paymoni from "../Assets/paymoni.png";
 import portfolio from "../Assets/portfolio.png";
 import food from "../Assets/food.png";
+import berry from '../Assets/BerryStamp React landing page.png'
+import lanchak from '../Assets/Lanchak landing page.png'
+import Requstory from '../Assets/Requstory landing page.png'
+import lordfaith from '../Assets/lordfaith store.png'
 
 const Port = styled.div`
   .cont {
@@ -63,6 +67,10 @@ const Port = styled.div`
 `;
 function Portfolio() {
   const items = [
+    { img:lordfaith, live:'https://folder-delta.vercel.app/',github:"https://github.com/TimBa1", describe:'Lordfaith Store' ,content:"Online E-commerce store for a luxury jewerly brand" },
+    { img:berry, live:'http://berrystamp.com',github:"https://github.com/TimBa1", describe:' BerryStamp website' ,content:"Online Market place and printing solution" },
+    { img:lanchak, live:'http://lanchak.com',github:"https://github.com/TimBa1", describe:' Lanchak website' ,content:"A landing page for a phramaceutical company" },
+    { img:Requstory, live:'https://github.com/TimBa1',github:"https://github.com/TimBa1", describe:' Requstory website' ,content:"" },
     { img: schola, live:"http://scholapay.com", github:"https://github.com/timba1" , describe:"Scholapay Dashbaord App" ,content:"Web Application for Schools" },
     { img: track, live:"http://timba-task-tracker.netlify.com", github:"https://github.com/TimBa1/task-tracker" , describe:"Task Tracker" ,content:"For tracking your daily activities"  },
     { img: budget, live:"http://timba-budget-app.netlify.com", github:"https://github.com/TimBa1/budget-tracker" , describe:"Budget App" ,content:"Budget Application to manage finances"},
@@ -70,6 +78,8 @@ function Portfolio() {
     { img: hollarams, live:"http://hollarams.com", github:"https://github.com/TimBa1/Hollarams-1" , describe:"Hollarams website" ,content:""  },
     { img: portfolio, live:"http://timilehin-bakare.netlify.com", github:"https://github.com/TimBa1/Portfollio-page1" , describe:"Porfolio page" ,content:""  },
     { img: food, live:"https://github.com/TimBa1", github:"https://github.com/TimBa1/food-app.next.js" , describe:"Food App" ,content:""  },
+    
+    
   ];
   return (
     <Container id="portfolio">
