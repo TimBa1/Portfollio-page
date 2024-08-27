@@ -128,7 +128,7 @@ function About() {
               <article className="card">
                 <FaAward className="icon" />
                 <h5>Experience</h5>
-                <small>1+ Years Working</small>
+                <small>3+ Years Working</small>
               </article>
               
               <article className="card">
