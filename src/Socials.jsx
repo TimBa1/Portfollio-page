@@ -7,13 +7,19 @@ export const socialMedia = {
     gmail: "timilehinbakare.tb@gmail.com", 
     number: "+234-8126414677",
     whatsapp:"https://wa.me/+2348126414677/",
-    cv:"https://t.co/KdoD0X20NI"
+    cv:"https://drive.google.com/file/d/19zJwPVxq1UyuEqnUNOnTKcOIQ4TLvnGt/view?usp=drivesdk"
   }
 
   export const WorkExp=[
     {
+      place:'Duro Networks (Getripay)',
+      tenure:'Feb 2024 - Present',
+      role: "Junior Frontend Developer",
+      detail:'An online banking solution where you can make swift transfers and make bill payments'
+    },
+    {
       place:'Berrystamp',
-      tenure:'july 2023 -Present',
+      tenure:'july 2023 -March 2024',
       role: "Junior Frontend Developer",
       detail:'Collaborated with a team of developers and designers to build a custom online printing platform where customers can request and customize a design and print on apparels, merchandize and billboards.'
     },

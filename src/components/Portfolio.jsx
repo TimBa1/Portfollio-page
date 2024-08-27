@@ -13,6 +13,7 @@ import berry from '../Assets/BerryStamp React landing page.png'
 import lanchak from '../Assets/Lanchak landing page.png'
 import Requstory from '../Assets/Requstory landing page.png'
 import lordfaith from '../Assets/lordfaith store.png'
+import getri from '../Assets/getripay.png'
 
 const Port = styled.div`
   .cont {
@@ -67,6 +68,7 @@ const Port = styled.div`
 `;
 function Portfolio() {
   const items = [
+    { img: getri, live:"https://online.getripay.com/", github:"" , describe:"GetriPay" ,content:"An online banking Plaform"  },
     { img:lordfaith, live:'https://folder-delta.vercel.app/',github:"https://github.com/TimBa1", describe:'Lordfaith Store' ,content:"Online E-commerce store for a luxury jewerly brand" },
     { img:berry, live:'http://berrystamp.com',github:"https://github.com/TimBa1", describe:' BerryStamp website' ,content:"Online Market place and printing solution" },
     { img:lanchak, live:'http://lanchak.com',github:"https://github.com/TimBa1", describe:' Lanchak website' ,content:"A landing page for a phramaceutical company" },
